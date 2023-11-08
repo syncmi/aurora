@@ -1,0 +1,47 @@
+/*--------------------------------------------------------------
+# FAB Mic button
+--------------------------------------------------------------*/
+.fab-mic {
+  position: fixed;
+  visibility: visible;
+  opacity: 1;
+  left: 50%;
+  bottom: 10px;
+  z-index: 996;
+  background: #008EFC;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  transform: translate(-50%);
+  transition: all 0.4s;
+  animation:  none;
+}
+
+.fab-mic i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.fab-mic:hover {
+  background: #5D3BAF;
+  color: #fff;
+}
+
+.fab-mic.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+@keyframes wave {
+  0% {
+            transform: translate(-50%) rotate(-360deg);
+      
+  }
+    
+    
+  100% {
+            transform: translate(-50%) rotate(360deg);
+  }
+}

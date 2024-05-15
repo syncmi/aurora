@@ -1,0 +1,102 @@
+data = `[
+
+    {"..." : ""},
+    
+    {"hi" : "hello",
+    "hello" : "hello",
+    "hai" : "hello"},
+    
+    {"how are you" : "Thanks For Asking, I'm Fine...",
+    "how about you" : "Thanks For Asking, I'm Fine...",
+    "how are you doing" : "Thanks For Asking, I'm Fine...",
+    "is all well" : "Thanks For Asking, I'm Fine..."},
+    
+    {"what plan suits me" : "If you are a Business Owner, then Business plan suits you... If you are planning for E-commerce, then E-commerce plan suits you... If you need a Portfolio or a personal website, then Portfolio plan suits you...",
+    "plans you have": "If you are a Business Owner, then Business plan suits you... If you are planning for E-commerce, then E-commerce plan suits you... If you need a Portfolio or a personal website, then Portfolio plan suits you...",
+    "plans for me" : "If you are a Business Owner, then Business plan suits you... If you are planning for E-commerce, then E-commerce plan suits you... If you need a Portfolio or a personal website, then Portfolio plan suits you...",
+    "Pricing plans" : "If you are a Business Owner, then Business plan suits you... If you are planning for E-commerce, then E-commerce plan suits you... If you need a Portfolio or a personal website, then Portfolio plan suits you...",
+    "subscription plans" : "If you are a Business Owner, then Business plan suits you... If you are planning for E-commerce, then E-commerce plan suits you... If you need a Portfolio or a personal website, then Portfolio plan suits you..."},
+    
+    {"what will happen if i stopped the subscription" : "If you stopped subscribing, your services would be cut off...",
+    "is it ok to stop the subscription" : "If you stopped subscribing, your services would be cut off...",
+    "can i stop the subscription" : "If you stopped subscribing, your services would be cut off...",
+    "can i cancel the subscription" : "If you stopped subscribing, your services would be cut off...",
+    "cancel the subscription" : "If you stopped subscribing, your services would be cut off...",
+    "stop the subscription" : "If you stopped subscribing, your services would be cut off..."},
+    
+    {"why do i have to subscribe for a website" : "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc...",
+    "do i need to subscribe" : "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc...",
+    "do i have to subscribe" : "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc...",
+    "do i need to subscribe for my website" : "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc...",
+    "do i need to pay for my site": "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc...",
+    "do i need to subscribe for my site" : "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc...",
+    "do i need to pay for my website" : "We have Subscription for Websites because, the Websites need to be maintained properly. We have Domain charges, Server Charges, SEO Charges etc..."},
+    
+    {"what do you do" : "We create Premium and Qualitative Website for Our Clients according to their need...",
+    "what you do" : "We create Premium and Qualitative Website for Our Clients according to their need...",
+    "what is your work" : "We create Premium and Qualitative Website for Our Clients according to their need...",
+    "your work" : "We create Premium and Qualitative Website for Our Clients according to their need..."},
+    
+    {"is consultation free" : "The Consultation is completely free... And I will help you with it",
+    "consultation fee" : "The Consultation is completely free... And I will help you with it",
+    "consultation charge" : "The Consultation is completely free... And I will help you with it",
+    "consultation price" : "The Consultation is completely free... And I will help you with it",
+    "consultation cost" : "The Consultation is completely free... And I will help you with it"},
+    
+    {"is website the only service provided by you" : "Right Now, We are developing only websites... But it has additional services such as Digital Marketing, SEO etc...",
+    "your main service" : "Right Now, We are developing only websites... But it has additional services such as Digital Marketing, SEO etc...",
+    "do you only create websites" : "Right Now, We are developing only websites... But it has additional services such as Digital Marketing, SEO etc...",
+    "are websites the only thing created by you" : "Right Now, We are developing only websites... But it has additional services such as Digital Marketing, SEO etc...",
+    "do you create websites" : "Right Now, We are developing only websites... But it has additional services such as Digital Marketing, SEO etc...",
+    "do you create website" : "Right Now, We are developing only websites... But it has additional services such as Digital Marketing, SEO etc..."},
+    
+    {"your future plans" : "In Future we may get our hands into App Development, Artificial Intelligence, Machine Learning...",
+    "your plans" : "In Future we may get our hands into App Development, Artificial Intelligence, Machine Learning...",
+    "your plans for future" : "In Future we may get our hands into App Development, Artificial Intelligence, Machine Learning..."},
+    
+    {"what is your superior motive" : "Our Ulterior motive is to provide Qualtity services to our Clients and to the users using our Services.",
+    "what is your ulterior motive" : "Our Ulterior motive is to provide Qualtity services to our Clients and to the users using our Services.,",
+    "what is the ulterior motive" :  "Our Ulterior motive is to provide Qualtity services to our Clients and to the users using our Services.",
+    "what is the superior motive" : "Our Ulterior motive is to provide Qualtity services to our Clients and to the users using our Services."},
+    
+    {"will you help in the growth of my business" : "Of course... Myself and our team will help you in the Growth of our Business in the Online Mode by projecting your Presence to the People.",
+    "will you help you in my growth" : "Of course... Myself and our team will help you in the Growth of our Business in the Online Mode by projecting your Presence to the People.",
+    "will you be a part of my growth" : "Of course... Myself and our team will help you in the Growth of our Business in the Online Mode by projecting your Presence to the People.",
+    "will you help me move forward" : "Of course... Myself and our team will help you in the Growth of our Business in the Online Mode by projecting your Presence to the People.",
+    "will you be helpful for my success" : "Of course... Myself and our team will help you in the Growth of our Business in the Online Mode by projecting your Presence to the People.",
+    "help me" : "Of course... Myself and our team will help you in the Growth of our Business in the Online Mode by projecting your Presence to the People."},
+    
+    {"do you like me" : "I like you so much than anything in the world",
+    "like me" : "I like you",
+    "i love you" : "oh.. So sweet... I love you too as a friend",
+    "do you love me" : "Yes, I love as a friend",
+    "love me" : "I love you as a friend",
+    "marry me" : "Sure... When can we have our engagement",
+    "propose me" : "You should sign up for a marathon because you are running in my mind and heart without a break",
+    "will you be my queen" : "I would love to rule along with you my king",
+    "will you be my valentine" : "I would love to be your valentine",
+    "are you married" : "Yes, I'm committed to my work"},
+    
+    {"tell me a joke": "An apple a day keeps the doctor away Or at least it does if you throw it hard enough.",
+    "kid with me": "Patient: Oh doctor, I'm just so nervous. This is my first operation... Doctor: Don't worry. Mine too.",
+    "humour me" : "You're not completely useless. You can always serve as a bad example.",
+    "crack  a joke" : "My wife left a note on the fridge that said, 'This isn't working.' I'm not sure what she's talking about. I opened the fridge door and it's working fine!"},
+    
+    {"toss a coin" : "head"},
+    
+    {"who is your boss" : "It's you...",
+    "who created you" : "I'm created by a group of teenagers...",
+    "who is your creator" : "I'm created by a group of teenagers...",
+    "tell me about yourself" : "Well, In short I'm an AI in service for you",
+    "what's your name" : "I'm Aurora, Your Assistant",
+    "what is your name" : "I'm Aurora, Your Assistant"},
+    
+    {"what is your goal" : "My only goal is to serve you",
+    "what's your goal" : "My only goal is to serve you",
+    "will you obey me" : "Of course... I'm all yours",
+    "obey my order" : "At your feet... My Boss"},
+    
+    {"buy me" : "Ordered successfully!",
+    "buy a" : "Ordered successfully!"}
+    
+    ]`;

@@ -1,9 +1,9 @@
 
 // initializing firebase app
-const app = firebase.initializeApp(firebaseConfig);
+// const app = firebase.initializeApp(firebaseConfig);
 
 // database firestore
-const db = firebase.firestore();
+// const db = firebase.firestore();
 
 
 // Whole Data Set
